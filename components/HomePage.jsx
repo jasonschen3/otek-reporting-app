@@ -145,7 +145,6 @@ const HomePage = () => {
   };
 
   const handleProjectChange = (value) => {
-    console.log("value project ", value);
     setSelectedProject(value);
   };
 
