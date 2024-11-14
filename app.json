@@ -4,11 +4,11 @@
     "slug": "otek-reporting-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/otek-logo.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/otek-logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -18,13 +18,13 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/otek-logo.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.jasonschen.otekreportingapp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/otek-logo.png"
     }
   }
 }
