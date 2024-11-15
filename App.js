@@ -3,8 +3,10 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import LoginPage from "./components/LoginPage";
 import HomePage from "./components/HomePage";
+import { enableScreens } from "react-native-screens";
 
 const Stack = createStackNavigator();
+enableScreens();
 
 function App() {
   return (
